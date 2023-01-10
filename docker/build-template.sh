@@ -1,4 +1,4 @@
 #!/bin/sh
 
 get_arch=`arch`
-docker build -t @docker.image.name@:$get_arch-@version.keycloak@_phone-@project.version@ .
+docker build -t mic-r-kc-phone:$get_arch-20.0.2023.1 .

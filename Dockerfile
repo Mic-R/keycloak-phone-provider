@@ -26,22 +26,22 @@ COPY target/providers/keycloak-phone-provider.resources.jar /opt/keycloak/provid
 COPY target/providers/keycloak-sms-provider-dummy.jar /opt/keycloak/providers/
 
 #yuntongxin provider
-COPY target/providers/keycloak-sms-provider-cloopen.jar /opt/keycloak/providers/
+#COPY target/providers/keycloak-sms-provider-cloopen.jar /opt/keycloak/providers/
 
 #totalvoice provider
-COPY target/providers/keycloak-sms-provider-totalvoice.jar /opt/keycloak/providers/
+#COPY target/providers/keycloak-sms-provider-totalvoice.jar /opt/keycloak/providers/
 
 #twilio provider
 COPY target/providers/keycloak-sms-provider-twilio.jar /opt/keycloak/providers/
 
 #yunxin provider
-COPY target/providers/keycloak-sms-provider-yunxin.jar /opt/keycloak/providers/
+#COPY target/providers/keycloak-sms-provider-yunxin.jar /opt/keycloak/providers/
 
 #tencent provider
 COPY target/providers/keycloak-sms-provider-tencent.jar /opt/keycloak/providers/
 #
 #aliyun provider
-COPY target/providers/keycloak-sms-provider-aliyun.jar /opt/keycloak/providers/
+#COPY target/providers/keycloak-sms-provider-aliyun.jar /opt/keycloak/providers/
 
 #aws provider
 COPY target/providers/keycloak-sms-provider-aws-sns.jar /opt/keycloak/providers/
